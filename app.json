@@ -20,6 +20,7 @@
       "supportsTablet": true
     },
     "web": {
+      "name": "CS Course Scheduler",
       "favicon": "./assets/favicon.png"
     }
   }

@@ -1,25 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+const schedule = {
+  title: "CS Courses for 2019-2020"
+};
+
+const App = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.textStyle}>Welcome to my app!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.bannerStyle}>{schedule.title}</Text>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#00f',
+    flex: 1,    
     alignItems: 'center',
     justifyContent: 'center',
   },
-  textStyle: {
+  bannerStyle: {
     fontSize: 32,
-    color: '#fff'
+    color: '#888'
   }
 });
+
+export default App;
+
+
