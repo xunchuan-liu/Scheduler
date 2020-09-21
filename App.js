@@ -76,10 +76,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     flexWrap: "wrap",
     alignItems: "center",
-    justifyContent: "space-between"
+    justifyContent: "flex-start"
   },
-  courseButton: {
-    flex: 1,
+  courseButton: {    
     borderRadius: 5,
     justifyContent: 'center',
     alignItems: 'center',
