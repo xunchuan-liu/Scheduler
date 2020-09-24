@@ -5,7 +5,7 @@ import UserContext from '../UserContext';
 
 import CourseList from '../components/CourseList';
 
-import { firebase } from '../firebase';
+import { firebase } from '../utils/firebase';
 
 
 const Banner = ({title}) => (

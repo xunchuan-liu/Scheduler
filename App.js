@@ -12,7 +12,7 @@ import CourseEditScreen from './screens/CourseEditScreen';
 const Stack = createStackNavigator();
 
 const App = () => {
-  const [user, setUser] = useState();
+  const [user, setUser] = useState({ role: 'admin' });
 
   return (
     <UserContext.Provider value={user}>
