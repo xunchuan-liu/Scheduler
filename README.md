@@ -5,8 +5,7 @@
 &nbsp;
 &nbsp;
 
-## Check out the live demo here: 
-### <a href="https://scheduler-1161e.web.app/" target="_blank">https://scheduler-1161e.web.app/</a>
+## Check out the live demo here: https://scheduler-1161e.web.app/
 
 &nbsp;
 &nbsp;
